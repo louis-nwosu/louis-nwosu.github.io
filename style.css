@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+.side-nav {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  position: fixed;
+}
+.bg-darker {
+  background-color: #222;
+}
+#hero-sec {
+  padding-bottom: 2%;
+}
+.btn-outline-primary {
+  border: "#fff" !important;
+}
+.rubberBand {
+  display: inline-block;
+  transition: color 1s;
+  color: #fff;
+}
+.rubberBand:hover {
+  background: -webkit-linear-gradient(#b92b27, #1565c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.code {
+  font-family: "Dancing Script", cursive;
+  color: #888;
+}
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.hero-text {
+  font-family: "Orelega One", cursive;
+}
+#profile {
+  background-color: #333;
+}
+#wobble {
+  transition: all 1s;
+}
+#wobble:hover {
+  background: -webkit-linear-gradient(#b92b27, #1565c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#about-me {
+  color: #999;
+}
+.portfolio-text {
+  transition: all 1s;
+}
+.portfolio-text:hover {
+  background: -webkit-linear-gradient(#b92b27, #1565c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#portfolio {
+  background-color: #222;
+}
+.image-div {
+  transition: transform 0.8s;
+}
+.image-div:hover {
+  transform: scale(1.1);
+}
+.image-div {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  width: 90%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.75s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay > * {
+  transform: translateY(50px);
+  transition: transform 0.5s;
+}
+.overlay:hover > * {
+  transform: translateY(0);
+}
+.overlay-blur {
+  backdrop-filter: blur(1px);
+}
+.clickable {
+  cursor: pointer;
+}
+.pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(225, 225, 225, 0.1);
+  border: 1px solid rgba(225, 225, 225, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: .2s;
+  z-index: 1000;
+}
+.pointer1 {
+  transition: 0.25s;
+}
+.pointer2 {
+  transition: 0.1s;
+}
+.pointer3 {
+  transition: 0.15s;
+}
+.pointer4 {
+  transition: 0.2s;
+}
+.pointer5 {
+  transition: 0.25s;
+}
+.pointer6 {
+  transition: 0.3s;
+}
