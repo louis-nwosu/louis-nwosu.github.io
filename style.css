@@ -43,6 +43,7 @@ body {
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  font-size: small;
 }
 .hero-text {
   font-family: "Orelega One", cursive;
@@ -128,20 +129,23 @@ body {
   z-index: 1000;
 }
 .pointer1 {
-  transition: 0.25s;
-}
-.pointer2 {
   transition: 0.1s;
 }
-.pointer3 {
+.pointer2 {
   transition: 0.15s;
 }
-.pointer4 {
+.pointer3 {
   transition: 0.2s;
+}
+.pointer4 {
+  transition: 0.23s;
 }
 .pointer5 {
   transition: 0.25s;
 }
 .pointer6 {
-  transition: 0.3s;
+  transition: 0.27s;
+}
+.padd {
+  padding: 0% 0px;
 }
