@@ -7,7 +7,7 @@ const animateCSS = (element, animation, prefix = "animate__") => {
     //add the animation to the element
     node.classList.add(`${prefix}animated`, animationName);
 
-    //clean up naimatoin after it ends
+    //clean up animation after it ends
     function handleAnimationEnd(event) {
       event.stopPropagation();
       node.classList.remove(`${prefix}animated`, animationName);

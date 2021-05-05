@@ -87,7 +87,7 @@ body {
   position: absolute;
   z-index: 100;
   top: 0;
-  width: 90%;
+  width: 92%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -96,6 +96,16 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.75s;
+}
+.overlay-center {
+  background-color: rgba(6, 150, 175, 0.3);
+  width: 50%;
+  border-radius: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .overlay:hover {
   opacity: 1;
@@ -125,7 +135,7 @@ body {
   border-radius: 50%;
   pointer-events: none;
   box-sizing: border-box;
-  transition: .2s;
+  transition: 0.2s;
   z-index: 1000;
 }
 .pointer1 {
@@ -147,5 +157,8 @@ body {
   transition: 0.27s;
 }
 .padd {
-  padding: 0% 0px;
+  padding: 10% 0px;
+}
+.padd2 {
+  padding: 7% 7px;
 }
